@@ -66,7 +66,7 @@ dataState.loadPlugins([
 const route = useRoute()
 const router = useRouter()
 const toolBars = useToolBars(router, route)
-
+console.log(canvasState)
 const designer = ref<InstanceType<typeof Designer> | null>(null)
 
 const settingStore = useProjectSettingStoreWithOut()

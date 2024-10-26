@@ -38,8 +38,10 @@ const props = withDefaults(
     bars: () => []
   }
 )
+// TODO:
+console.log(leftToolBars);
 const leftToolBars = computed<ToolBarItemType[]>(() =>
-  props.bars.filter((el) => el.location === 'left' || el.location === undefined)
+  props.bars.filter((el) => el.location === 'left' || el.location === undefined);
 )
 
 const rightToolBars = computed<ToolBarItemType[]>(() =>

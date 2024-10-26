@@ -8,7 +8,7 @@ import '@open-data-v/data/style'
 import '@open-data-v/scripts/style'
 
 import { Directive, useComponentPlugin } from '@open-data-v/designer'
-import { createApp } from 'vue'
+import { createApp } from 'vue' 
 
 import router from '@/router'
 import store from '@/store'

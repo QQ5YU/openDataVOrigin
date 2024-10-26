@@ -33,6 +33,9 @@ const canvasState = useCanvasState()
 const instance = getCurrentInstance()
 const XIcon = instance!.appContext.components['XIcon']
 
+// TODO:console.log
+console.log(canvasState.components)
+
 const loadMenuOption = () => {
   const components = canvasState.components
   const componentMap = canvasState.componentMetaMap

@@ -7,5 +7,5 @@ packages:
   - examples/
   - resource/**
   - resources/**
-  - docs/
+
   - mock/
